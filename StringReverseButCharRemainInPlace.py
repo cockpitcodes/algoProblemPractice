@@ -1,10 +1,9 @@
 
-givenString = 'ad<Wx'
+# givenString = 'ad<Wx'
 # givenString = 'ab-cd'
-# givenString = 'a-bC-dEf=ghIj!!'
+givenString = 'a-bC-dEf=ghIj!!'
 emptyLetterList = []
 nlDict = {}
-emptyNLList = []
 
 def callme(string):
     for st,_ in enumerate(string):
