@@ -21,6 +21,8 @@
 # you can write to stdout for debugging purposes, e.g.
 # print("this is a debug message")
 
+
+## FUCTION THAT TAKES A STRING AS IN INPUT AND CHECKS & COUNTS THE NUMBER OF ZEROES IN CONTINUATION AND RETURNS THE NUMBER OF INSTANCE WHEN CALLED.
 def callMe(string) -> int:
     occurances = []
     iter = 0
