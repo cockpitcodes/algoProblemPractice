@@ -23,7 +23,7 @@
 
 
 ## FUCTION THAT TAKES A STRING AS IN INPUT AND CHECKS & COUNTS THE NUMBER OF ZEROES IN CONTINUATION AND RETURNS THE NUMBER OF INSTANCE WHEN CALLED.
-def callMe(string) -> int:
+def countzeroes(string) -> int:
     occurances = []
     iter = 0
     count = 0
@@ -45,7 +45,7 @@ def solution(N):
     N = str(bin(N))
     N = N[2::]
     if('0' in N and not N.startswith('0') and not N.endswith('0')):
-        returnVar = callMe(N)
+        returnVar = countzeroes(N)
         return returnVar
     else:
         returnVar = 0
